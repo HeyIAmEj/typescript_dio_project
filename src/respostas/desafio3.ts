@@ -5,6 +5,7 @@ export {} // Para não reclamar de variáveis duplicadas
         document.getElementById('limpar-saldo')!;
     A exclamação no fim é um sinal de que aquele campo não é nulo e que essa função realmente vai trazer algo. Assim, os ifs não são necessários.
     Como exemplo, vou seguir essa metodologia no campo 'botaoLimpar'.
+    
 */
 let botaoAtualizar = document.getElementById('atualizar-saldo');
 let botaoLimpar = document.getElementById('limpar-saldo')!;
